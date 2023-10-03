@@ -20,21 +20,60 @@
             <li><a href="#origlink">Ссылка на оригинальную статью</a></li>
         </ul>
     </nav>
-    <main><!--основная информация-->
+    <main>
+        <!--основная информация-->
         <article>
-            <h2 align="center" id="intro">Вступление</h2><!--первая важная информация. айди для ссылок-->
-            <section>
-                <p align="center">
-                    Один из самых узнаваемы людей для молодёжи, бывший про-игрок в Dota 2, непостоянный гений, уверенный в себе мужчина и просто легенда сегодняшнего интернета. Многие его видели в вырезках в тик-токах, но лишь избранные знают его по стримам доты. <br />Встречайте - <strong>Виталий Цаль.</strong>
-                </p>
-                <center>
-                    <!--для расположения картинки по центру-->
-                    <figure><img src="img/papich.jpg" width="1000" alt="Arthas крутой чел" /> <figcaption><em><u>Arthas крутой чел</u></em></figcaption> </figure><!--фигкаптион для подписи к картинке-->
-                </center>
-            </section>
+        <table> <!--таблица некрасивая, но учтено все, что было в файле-->
+            <caption>папич или виталий цаль</caption>
+            <colgroup>
+                <col style="background-color: lightpink;" />
+                <col style="background-color: lightpink;" />
+            </colgroup>
+            <tr>
+
+                <th colspan="2">Пару слов о папиче</th>
+            </tr>
+            <tr>
+                <td>
+                    умный
+                </td>
+                <td>сильный</td>
+            </tr>
+
+            <tr>
+                <td>лучший</td>
+                <td>хороший</td>
+            </tr>
+
+            <tr>
+                <td>дотерыч</td>
+                <td>казиныч</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">прикольнич</td>
+                <td>аскетыч</td>
+            </tr>
+            <tr>
+                <td>тупич</td>
+            </tr>
+        </table>
+    </article>
+    <article>
+        <h2 align="center" id="intro">Вступление</h2><!--первая важная информация. айди для ссылок-->
+        <section>
+            <p align="center">
+                Один из самых узнаваемы людей для молодёжи, бывший про-игрок в Dota 2, непостоянный гений, уверенный в себе мужчина и просто легенда сегодняшнего интернета. Многие его видели в вырезках в тик-токах, но лишь избранные знают его по стримам доты. <br />Встречайте - <strong>Виталий Цаль.</strong>
+            </p>
+            <center>
+                <!--для расположения картинки по центру-->
+                <figure><img src="img/papich.jpg" width="1000" alt="Arthas крутой чел" /> <figcaption><em><u>Arthas крутой чел</u></em></figcaption> </figure><!--фигкаптион для подписи к картинке-->
+            </center>
+        </section>
         </article>
         <article>
-            <h2 align="center" id="childhood"><!--Вторая важная информация-->
+            <h2 align="center" id="childhood">
+                <!--Вторая важная информация-->
                 Детство и юность
             </h2>
             <section>
@@ -65,6 +104,35 @@
                     <figure><img src="img/papichkrut.png" width="1000" alt="Крутой Папич" /> <figcaption><em><u>Крутой Папич</u></em></figcaption> </figure>
                 </center>
             </section>
+        </article>
+        <article>
+            <!--ДЗ 2. для отзывов о величайшем-->
+            <form action="login" method="post">
+                <fieldset>
+                    <legend>Оставить отзыв о папиче:</legend>
+                    <label for="uname">Ваше имя:</label>
+                    <input type="text" name="user_name">
+                    <input type="button" value="Подтвердить">
+                    <label for="uname">Ваша фамилия: </label>
+                    <input type="password" name="user_password">
+                    <input type="button" value="Подтвердить">
+                    <br /><font>Насколько папич крут?</small></font>
+                    <select>
+                        <optgroup>
+                            <option value="text">1</option>
+                            <option value="text">2</option>
+                            <option value="text">3</option>
+                            <option value="text">4</option>
+                            <option value="text">5</option>
+                            <option value="text">6</option>
+                            <option value="text">7</option>
+                            <option value="text">8</option>
+                            <option value="text">9</option>
+                            <option value="text">10</option>
+                        </optgroup>
+                    </select>
+                </fieldset>
+            </form>
         </article>
     </main>
     <footer><!--отдельное упоминание в моей статье оригинальной статьи, кажется, в мэйн это не подходило, поэтому засунул в футер-->
