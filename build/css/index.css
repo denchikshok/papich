@@ -1,0 +1,54 @@
+p {
+    text-align: left;
+    color: white;
+    background-color: transparent !important;
+}
+/*вот тут 
+    сделал фоны 
+    по айдишникам и коммент 
+    в несколько строк*/
+#intro{
+    background-color: lightblue;
+}
+#childhood {
+    background-color: lightblue;
+}
+
+#earnings {
+    background-color: lightblue;
+}
+
+/*а тут сделал фон для всего сайта и коммент в одну строку*/
+body {
+    background: url('../img/fon.jpg');
+}
+
+table {
+    border: 3px solid red; /*обводка*/
+    text-align: center;
+    font-family: Arial;
+    font-size: 50px;
+    margin-right: auto; /*таблица посередине*/
+    margin-left: auto;
+}
+
+.center {
+    font-family: Arial;
+}
+
+h1, h2 {
+    color: darkslateblue;
+}
+
+
+a[href]{
+    background-color: white;
+}
+
+input[type="text"] {
+    background-color: red;
+    width: 35em;
+}
+
+
+
