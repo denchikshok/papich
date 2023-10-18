@@ -49,6 +49,9 @@ input[type="text"] {
     background-color: red;
     width: 35em;
 }
+.center, .right{
+    background-color: black;
+}
 
 
 
