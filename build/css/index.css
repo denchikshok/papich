@@ -3,19 +3,32 @@ p {
     color: white;
     background-color: transparent !important;
 }
+
+h2 {
+    border: 5px solid black;
+}
+
 /*вот тут 
     сделал фоны 
     по айдишникам и коммент 
     в несколько строк*/
+
 #intro{
     background-color: lightblue;
+    font-family: Arial;
+    font-size: 30px;
 }
+
 #childhood {
-    background-color: lightblue;
+    background-color: blue;
+    font-family: Arial;
+    font-size: 30px;
 }
 
 #earnings {
-    background-color: lightblue;
+    background-color: darkblue;
+    font-family: Arial;
+    font-size: 30px;
 }
 
 /*а тут сделал фон для всего сайта и коммент в одну строку*/
@@ -30,16 +43,21 @@ table {
     font-size: 50px;
     margin-right: auto; /*таблица посередине*/
     margin-left: auto;
+    background-color: white;
+}
+
+.right{
+    text-align: right;
 }
 
 .center {
     font-family: Arial;
+    text-align: center;
 }
 
 h1, h2 {
     color: darkslateblue;
 }
-
 
 a[href]{
     background-color: white;
@@ -49,8 +67,23 @@ input[type="text"] {
     background-color: red;
     width: 35em;
 }
+
 .center, .right{
     background-color: black;
+}
+
+.img{
+    text-align: center;
+}
+
+td{
+    background-color: pink;
+}
+.yantar{
+    background-color: lightyellow;
+    color: darkblue;
+    font-family: 'Times New Roman';
+    font-size: 25px;
 }
 
 
