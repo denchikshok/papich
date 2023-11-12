@@ -1,0 +1,21 @@
+body {
+    height: 1000px;
+    display: flex;
+    background-color: lightpink;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wrap {
+    width: 300px;
+}
+
+aside {
+    width: 300px;
+}
+
+.wrap-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

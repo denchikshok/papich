@@ -1,0 +1,77 @@
+/*Задача 1*/
+.dd {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+}
+
+#first {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: blue;
+}
+
+#second {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: blue;
+}
+
+/*Задача 2*/
+.ay{
+    width: 500px;
+    height: 300px;
+    overflow: scroll;
+    margin-left: 150px;
+}
+
+.po {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+}
+
+#pu {
+    position: fixed;
+    top: 80px;
+    left: 10px;
+}
+
+
+/*Задача 3*/
+body{
+    height: 1200px;
+}
+
+dt {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin: 1em 0;
+}
+
+header {
+    position: relative;
+    background: url("../img/d.jpg") no-repeat center;
+    z-index: 0;
+    height: 500px;
+    width: 1200px;
+}
+
+header::after{
+    content: "анекдот";
+    position: absolute;
+    background-color: rgba(201, 188, 100, 0.61);
+    inset: 0;
+    z-index: -1;
+}
+
+
